@@ -1,1 +1,1 @@
-# week1-3_GG
+Exercise Week 1-3 GIT & CCS
