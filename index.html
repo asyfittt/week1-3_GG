@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <meta name="description" content="Spotify clone made using html,css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/logo.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <!-- Start My Library -->
+        <div class="library">
+          <div class="flex-top">
+            <div class="link-flex">
+              <img src="assets/playlist.png" alt="Library" />
+              <p>Your Library</p>
+            </div>
+            <div class="link-flex">
+              <img src="assets/plus.png" />
+              <img src="assets/boxes.png" />
+            </div>
+          </div>
+          <div class="albums">
+            <div class="link-flex album-flex">
+              <img src="assets/mix1.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">Galau Aja</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+
+            <div class="link-flex album-flex">
+              <img src="assets/mix2.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">Beberes Kamar</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+
+            <div class="link-flex album-flex">
+              <img src="assets/mix3.jpeg" class="album-cover" />
+              <div class="col-flex">
+                <p class="album-name">Musim Hujan</p>
+                <p>Playlist &#x2022; Spotify</p>
+              </div>
+            </div>
+          </div>
+          <!-- End My Library -->
+        </div>
+      </div>
+
+      <!--Start Navbar content -->
+      <div class="main-content">
+        <div class="navbar">
+          <div class="link-flex">
+            <img src="assets/back_navigation.png" />
+            <img src="assets/forward_navigation.png" />
+          </div>
+          <!--End Navbar content -->
+        </div>
+        <h3>Most Played</h3>
+
+        <div class="cards-container">
+          <div class="card">
+            <img
+              src="https://media1.popsugar-assets.com/files/thumbor/L-VT9k0GKckWWnpo3n2YBq4f9tE/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2017/08/03/846/n/37139775/2d0d134e5983773fe90560.65157921_edit_img_image_17921777_1501786115/i/Camila-Cabello-Havana-Song.jpg"
+              class="card-img"
+            />
+            <p class="card-name">Artist 1</p>
+            <p class="card-description">Song</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://i.pinimg.com/736x/02/b8/94/02b894f7ea6ad9f724648ee511ad018f--edm-music-house-music.jpg"
+              class="card-img"
+            />
+            <p class="card-name">Artist 2</p>
+            <p class="card-description">Song 2</p>
+          </div>
+        </div>
+        <h3>Made For You</h3>
+        <div class="cards-container">
+          <div class="card">
+            <img
+              src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb771aebd54ce149b97c0bb971/1/en/default"
+              class="card-img"
+            />
+            <p class="card-name">Daily Mix 1</p>
+            <p class="card-description">
+              Embrace the rhythm of life with today's Daily Mix
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb63329d77582c519154674fd7/2/en/default"
+              class="card-img"
+            />
+            <p class="card-name">Daily Mix 2</p>
+            <p class="card-description">
+              Embrace the rhythm of life with today's Daily Mix
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebc36dd9eb55fb0db4911f25dd/3/en/default"
+              class="card-img"
+            />
+            <p class="card-name">Daily Mix 3</p>
+            <p class="card-description">
+              Embrace the rhythm of life with today's Daily Mix
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
